@@ -1,60 +1,12 @@
 [
   {
-    "id": "new-year-over-porkyville",
-    "title": "New Year Dawns Over Porkyville",
-    "date": "2025-01-01",
-    "author": "staff",
-    "category": [
-      "Culture"
-    ],
-    "markdown": true,
-    "excerpt": "Fireworks over New Porkyville light up the night sky as citizens gather along the northern oceanfront to ring in the new year.",
-    "content": "<p>Welcome to the <strong>Porkyville Chronicle</strong>. Replace sample stories by editing <code>data/articles.json</code>. This opening night featured celebrations from the western potato fields to the northern docks.</p>"
-  },
-  {
-    "id": "assembly-first-session",
-    "title": "Assembly Opens First Session of the Year",
-    "date": "2025-01-02",
-    "author": "staff",
-    "category": [
-      "Politics"
-    ],
-    "markdown": true,
-    "excerpt": "Delegates debate infrastructure, cross-border trade, and Wither containment protocols.",
-    "content": "<p>The World Assembly convened with an agenda packed with proposals. Delegates discussed transport links to Porkenhaven and maritime rules for the northern coast.</p>"
-  },
-  {
-    "id": "boarball-winter-cup",
-    "title": "Boarball Winter Cup Kicks Off",
-    "date": "2025-01-03",
-    "author": "staff",
-    "category": [
-      "Sport"
-    ],
-    "markdown": true,
-    "excerpt": "Clubs from across the Empire arrive in New Porkyville for the annual tournament under frosty skies.",
-    "content": "<p>Matchday one saw spirited performances and a few stunning upsets. Supporters braved the cold to pack the stands.</p>"
-  },
-  {
-    "id": "potato-futures-record",
-    "title": "Potato Futures Hit Record High",
+    "id": "chronicle-new-website",
+    "title": "Porkyville Chronicle Launches New Website",
     "date": "2025-09-08",
     "author": "staff",
-    "category": [
-      "Economy"
-    ],
+    "category": ["Culture"],
+    "excerpt": "The Empire’s national newspaper moves online, bringing the latest news of Porkyville directly to citizens’ reading tables.",
     "markdown": true,
-    "excerpt": "Traders eye bumper harvests in New Porkyville\u2019s western fields.",
-    "content": "<p>Analysts attribute the surge to improved irrigation and strong export demand via Porkenhaven.</p>"
-  },
-  {
-    "id": "withers-run-wild",
-    "title": "Withers Run Wild After Battle",
-    "date": "2025-09-01",
-    "author": "staff",
-    "category": ["Politics"],
-    "excerpt": "A battle in the northern fields unleashed dozens of Withers...",
-    "markdown": true,
-    "content": "# Breaking News\n\nThe **Withers** have escaped!\n\n![Wither Chaos](assets/images/withers.png)\n\nTroops were dispatched immediately."
+    "content": "# A New Chapter for the Chronicle\n\nThe **Porkyville Chronicle**, the national newspaper of the Piggian Empire, is proud to announce the launch of its new website — a digital home for the stories of our Empire.\n\nFor decades, the Chronicle has been the Empire’s trusted source for:\n\n- The latest debates in the World Assembly 🏛️\n- Updates from the potato fields 🌱\n- Trade developments in Porkenhaven ⚓\n- Sports triumphs like the **Boarball Winter Cup** ⚽\n\nNow, with this website, we can bring those same reports **faster, broader, and more directly** to readers across the Overworld, the Nether, and the End.\n\n---\n\n## Why Go Digital?\n\nThe Chronicle’s move online ensures that citizens can:\n\n1. **Access the news instantly** — no matter which corner of the Empire they live in.\n2. **Explore stories by category** — Politics, Economy, Culture, and Sport, each with their own dedicated section.\n3. **Read on any device** — whether it’s a workstation in the capital or a humble lectern in a village library.\n\n> *“The Chronicle is the voice of the Empire. This new platform ensures that voice can be heard more clearly than ever before.”*  \n— **Editorial Board of the Chronicle**\n\n---\n\n## The Look of the Gazette\n\nOur design takes inspiration from the **Imperial Gazette** tradition: bold mastheads, serif typefaces, and a dignified presentation worthy of an empire. Articles now feature drop caps, crisp section rules, and even images embedded directly into the page.\n\n![Porkyville Skyline](assets/images/porkyville-skyline.jpg)\n*The northern oceanfront of New Porkyville, now visible not just in person but also through the Chronicle’s new digital lens.*\n\n---\n\n## What Comes Next\n\nThe Chronicle will continue to publish articles daily, covering:\n\n- **Politics** — from the World Assembly chambers to royal proclamations.\n- **Economy** — trade, markets, and the ever-important potato harvest.\n- **Culture** — festivals, traditions, and stories from across the Empire.\n- **Sport** — every goal, victory, and defeat in the Empire’s favorite games.\n\nReaders are invited to bookmark the new website at **[chronicle.porkify.net](https://chronicle.porkify.net)**, ensuring they never miss a headline.\n\n---\n\n## A Note of Thanks\n\nThe Editorial Board thanks both the **citizens of the Empire** and the **Kaiser’s office** for their continued support. This step into the digital era is not just a technical upgrade — it is a **commitment to the free flow of information** across realms.\n\nTogether, we open a new chapter in the Chronicle’s proud history.\n\n---\n\n### Long Live the Chronicle! Long Live the Empire!\n\n*— The Staff of the Porkyville Chronicle*"
   }
 ]
