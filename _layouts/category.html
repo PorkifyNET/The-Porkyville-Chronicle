@@ -1,9 +1,0 @@
----
----
-<h1 class="page-title">{{ page.title }}</h1>
-<div class="cards">
-  {% assign cat = page.category %}
-  {% for post in site.categories[cat] %}
-    {% include post-card.html post=post %}
-  {% endfor %}
-</div>

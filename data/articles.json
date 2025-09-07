@@ -1,0 +1,46 @@
+[
+  {
+    "id": "new-year-over-porkyville",
+    "title": "New Year Dawns Over Porkyville",
+    "date": "2025-01-01",
+    "author": "staff",
+    "category": [
+      "Culture"
+    ],
+    "excerpt": "Fireworks over New Porkyville light up the night sky as citizens gather along the northern oceanfront to ring in the new year.",
+    "content": "<p>Welcome to the <strong>Porkyville Chronicle</strong>. Replace sample stories by editing <code>data/articles.json</code>. This opening night featured celebrations from the western potato fields to the northern docks.</p>"
+  },
+  {
+    "id": "assembly-first-session",
+    "title": "Assembly Opens First Session of the Year",
+    "date": "2025-01-02",
+    "author": "staff",
+    "category": [
+      "Politics"
+    ],
+    "excerpt": "Delegates debate infrastructure, cross-border trade, and Wither containment protocols.",
+    "content": "<p>The World Assembly convened with an agenda packed with proposals. Delegates discussed transport links to Porkenhaven and maritime rules for the northern coast.</p>"
+  },
+  {
+    "id": "boarball-winter-cup",
+    "title": "Boarball Winter Cup Kicks Off",
+    "date": "2025-01-03",
+    "author": "staff",
+    "category": [
+      "Sport"
+    ],
+    "excerpt": "Clubs from across the Empire arrive in New Porkyville for the annual tournament under frosty skies.",
+    "content": "<p>Matchday one saw spirited performances and a few stunning upsets. Supporters braved the cold to pack the stands.</p>"
+  },
+  {
+    "id": "potato-futures-record",
+    "title": "Potato Futures Hit Record High",
+    "date": "2025-09-08",
+    "author": "staff",
+    "category": [
+      "Economy"
+    ],
+    "excerpt": "Traders eye bumper harvests in New Porkyville\u2019s western fields.",
+    "content": "<p>Analysts attribute the surge to improved irrigation and strong export demand via Porkenhaven.</p>"
+  }
+]

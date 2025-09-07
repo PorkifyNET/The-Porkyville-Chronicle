@@ -1,4 +1,88 @@
----
-layout: home
-title: Home
----
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Porkyville Chronicle</title>
+  <meta name="description" content="The national newspaper of the Piggian Empire">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="data:,">
+</head>
+<body data-page="home">
+  <header class="site-header">
+    <div class="container topbar">
+      <a class="logo" href="index.html">Porkyville Chronicle</a>
+      <nav class="nav">
+        <a href="category.html?cat=Politics">Politics</a>
+        <a href="category.html?cat=Economy">Economy</a>
+        <a href="category.html?cat=Culture">Culture</a>
+        <a href="category.html?cat=Sport">Sport</a>
+        <a href="https://intra.porkify.net" target="_blank" rel="noopener">Intranet</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1 class="brand">Porkyville Chronicle</h1>
+      <p class="tagline">News from the Piggian Empire</p>
+      <noscript><p class="noscript">This site needs JavaScript to display articles.</p></noscript>
+    </section>
+
+    <section class="front-grid">
+      <div class="lead">
+        <h2>Top Stories</h2>
+        <div id="top-stories" class="cards"></div>
+      </div>
+      <aside class="side">
+        <h3>Latest</h3>
+        <ul id="latest-list" class="latest"></ul>
+
+        <h3>Sections</h3>
+        <ul class="sections">
+          <li><a href="category.html?cat=Politics">Politics</a></li>
+          <li><a href="category.html?cat=Economy">Economy</a></li>
+          <li><a href="category.html?cat=Culture">Culture</a></li>
+          <li><a href="category.html?cat=Sport">Sport</a></li>
+        </ul>
+
+        <div class="search-box">
+          <input id="search" type="search" placeholder="Search articles…" aria-label="Search">
+        </div>
+        <ul id="search-results" class="latest"></ul>
+      </aside>
+    </section>
+
+    <section class="category-rows">
+      <div class="row">
+        <h2 class="row-title">Politics</h2>
+        <div id="row-Politics" class="cards"></div>
+        <a class="more" href="category.html?cat=Politics">More Politics →</a>
+      </div>
+      <div class="row">
+        <h2 class="row-title">Economy</h2>
+        <div id="row-Economy" class="cards"></div>
+        <a class="more" href="category.html?cat=Economy">More Economy →</a>
+      </div>
+      <div class="row">
+        <h2 class="row-title">Culture</h2>
+        <div id="row-Culture" class="cards"></div>
+        <a class="more" href="category.html?cat=Culture">More Culture →</a>
+      </div>
+      <div class="row">
+        <h2 class="row-title">Sport</h2>
+        <div id="row-Sport" class="cards"></div>
+        <a class="more" href="category.html?cat=Sport">More Sport →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footwrap container">
+      <p>© <span id="year"></span> Porkyville Chronicle — Part of the Piggian Empire Press.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
