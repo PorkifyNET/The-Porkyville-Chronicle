@@ -1,20 +1,11 @@
 [
   {
-    "id": "potato-boom",
-    "title": "Potato Futures Hit Record High",
+    "id": "chronicle-new-website",
+    "title": "Porkyville Chronicle Unveils New Website",
     "date": "2025-09-08",
     "author": "Staff",
-    "category": "Economy",
-    "excerpt": "Traders eye bumper harvests in New Porkyville’s western fields.",
-    "content": "<p>Full article body here in HTML...</p>"
+    "category": "Culture",
+    "excerpt": "The Empire’s leading newspaper launches a modern online edition — bringing stories from the Overworld, Nether, and End to readers everywhere.",
+    "content": "# Porkyville Chronicle Unveils New Website\n\nThe **Piggian Empire’s national newspaper**, the *Porkyville Chronicle*, has entered a new age of publishing with the launch of its official online edition. For the first time in its storied history, the Chronicle’s pages will no longer be confined to parchment and ink — they will now be accessible from anywhere in the multiverse.\n\n## A Modern Imperial Gazette\n\nThe new website is designed to reflect the Chronicle’s traditional role as the **voice of the Empire**, while embracing the conveniences of modern technology. Visitors will find:\n\n- **Front page top stories** highlighting the most pressing events in Porkyville and beyond.\n- **Category sections** dedicated to *Piggian Empire*, *World*, *Politics*, *Economy*, and *Culture*.\n- A **searchable archive** of past stories, allowing readers to trace events back through time.\n- **Illustrations and documents** embedded directly in articles, bringing context to every report.\n\n![Front page screenshot](assets/images/frontpage-sample.png)\n\n## Reaching Across the Realms\n\nKaiser Live-van der Big praised the launch in an official statement, noting that *“an informed citizenry is the lifeblood of the Empire. With this new platform, the Chronicle ensures that every villager, from the western potato fields to the far edges of the Nether, has access to truth and knowledge.”*\n\nThe website also represents a new era of **international journalism**. With stories from the World Assembly, trade updates from faraway markets, and cultural features from across the multiverse, the Chronicle aims to broaden its scope while maintaining its imperial roots.\n\n## Tradition Meets Innovation\n\nWhile the Chronicle now appears in a digital form, it retains the stylistic elements of the imperial gazette: a bold masthead, drop caps at the beginning of articles, and sections demarcated with deep red rules. Readers can expect the same **editorial standards** that have defined the paper since its founding.\n\n> *“The Chronicle is no longer just a newspaper; it is a public forum, a record of history, and a stage upon which the Empire presents itself to the world.”* — Editorial Board\n\n---\n\n### Join Us Online\nReaders can now visit the Chronicle daily at **chronicle.porkify.net** to stay informed. As the Piggian Empire grows in influence, so too does the responsibility of its journalists to provide honest, timely, and engaging reporting.\n\nThis is only the beginning of the Chronicle’s digital journey — and the newsroom is already hard at work preparing the next wave of stories.\n"
   },
-  {
-    "id": "withers-run-wild",
-    "title": "Withers Run Wild After Battle",
-    "date": "2025-09-01",
-    "author": "Staff",
-    "category": "Politics",
-    "excerpt": "A battle in the northern fields unleashed dozens of Withers...",
-    "content": "<p>Detailed story text goes here...</p>"
-  }
 ]
