@@ -96,7 +96,11 @@
     const cats = (Array.isArray(art.category)?art.category:[art.category]).filter(Boolean).join(', ');
     qs('#meta').innerHTML = `${fmtDate(art.date)} • By ${author}${cats ? ' • In ' + cats : ''}`;
     qs('#excerpt').textContent = art.excerpt || '';
-    qs('#content').innerHTML = art.content || '';
+    if (art.markdown) {
+      qs('#content').innerHTML = marked.parse(art.content || '');
+    } else {
+      qs('#content').innerHTML = art.content || '';
+    }
 
     // Simple structured data (optional)
     const ld = {
