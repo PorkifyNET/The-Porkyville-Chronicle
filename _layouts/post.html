@@ -1,0 +1,17 @@
+---
+---
+<article class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <div class="meta">
+    <span>{{ page.date | date: "%B %d, %Y" }}</span>
+    {% assign author = site.data.authors[page.author] %}
+    {% if author %}
+      • <span>By {{ author.name }}</span>
+    {% endif %}
+    {% if page.categories %}
+      • <span>In {{ page.categories | array_to_sentence_string }}</span>
+    {% endif %}
+  </div>
+  {% if page.excerpt %}<p class="excerpt">{{ page.excerpt }}</p>{% endif %}
+  <div class="content">{{ content }}</div>
+</article>

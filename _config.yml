@@ -1,0 +1,24 @@
+title: Porkyville Chronicle
+description: The national newspaper of the Piggian Empire
+url: https://USERNAME.github.io/porkyville-chronicle
+baseurl: /porkyville-chronicle
+timezone: Europe/Berlin
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/
+collections:
+  posts:
+    output: true
+defaults:
+  - scope: {path: ""}
+    values:
+      layout: default
+  - scope: {path: "" , type: posts}
+    values:
+      layout: post
+      author: staff
+sass:
+  style: compressed
+exclude:
+  - README.md
+  - .github
+# No plugins to keep it Pages-safe

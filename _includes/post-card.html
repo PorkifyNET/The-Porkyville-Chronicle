@@ -1,0 +1,15 @@
+{% assign compact = include.compact | default: false %}
+<article class="card{% if compact %} compact{% endif %}">
+  <a class="card-link" href="{{ include.post.url | relative_url }}">
+    <h3>{{ include.post.title }}</h3>
+    {% if include.post.excerpt and compact == false %}
+      <p>{{ include.post.excerpt | strip_html | truncate: 140 }}</p>
+    {% endif %}
+    <div class="card-meta">
+      <span>{{ include.post.date | date: "%b %d, %Y" }}</span>
+      {% if include.post.categories %}
+      • <span>{{ include.post.categories | first | capitalize }}</span>
+      {% endif %}
+    </div>
+  </a>
+</article>
