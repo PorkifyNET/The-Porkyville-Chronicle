@@ -46,5 +46,15 @@
     "markdown": true,
     "excerpt": "Traders eye bumper harvests in New Porkyville\u2019s western fields.",
     "content": "<p>Analysts attribute the surge to improved irrigation and strong export demand via Porkenhaven.</p>"
+  },
+  {
+    "id": "withers-run-wild",
+    "title": "Withers Run Wild After Battle",
+    "date": "2025-09-01",
+    "author": "staff",
+    "category": ["Politics"],
+    "excerpt": "A battle in the northern fields unleashed dozens of Withers...",
+    "markdown": true,
+    "content": "# Breaking News\n\nThe **Withers** have escaped!\n\n![Wither Chaos](assets/images/withers.jpg)\n\nTroops were dispatched immediately."
   }
 ]
