@@ -49,7 +49,7 @@
 
   function renderHome(){
     // Top stories: first 3
-    const top = state.articles.slice(0,3).map(a => cardHTML(a)).join('');
+    const top = state.articles.slice(0,4).map(a => cardHTML(a)).join('');
     qs('#top-stories').innerHTML = top;
 
     // Latest list (8)
