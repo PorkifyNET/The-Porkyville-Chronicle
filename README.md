@@ -32,6 +32,7 @@ Edit `assets/css/style.css`. Colors live at the top as CSS variables.
 - Check comma's in JSON arguments
 - Check type of brackets
 - Check if brackets are properly closed
+- Ask ChatGPT or something idk
 - Cry (a lot)
 - McDonalds is open 24/7 if you need to cope with bad coding decisions
 - :3
