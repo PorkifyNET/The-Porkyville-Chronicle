@@ -2,17 +2,6 @@
 
 Pure HTML + CSS + JS. No Jekyll, no plugins. Articles live in `data/articles.json`.
 
-## Deploy
-1. Create a new repo (e.g., `porkyville-chronicle`).
-2. Upload these files.
-3. In GitHub **Settings → Pages**: Deploy from branch `main`, folder `/ (root)`.
-4. Your site will be live at `https://USERNAME.github.io/REPO-NAME`.
-
-## Custom Domain
-- Keep the `CNAME` file (edit to your domain).
-- Add a DNS CNAME record from your domain to `USERNAME.github.io`.
-- In **Settings → Pages**, set the same custom domain and enable HTTPS.
-
 ## Add Articles
 Edit `data/articles.json` and add entries like:
 ```json
@@ -38,3 +27,11 @@ Edit `data/articles.json` and add entries like:
 
 ## Theme
 Edit `assets/css/style.css`. Colors live at the top as CSS variables.
+
+## Troubleshooting
+- Check comma's in JSON arguments
+- Check type of brackets
+- Check if brackets are properly closed
+- Cry (a lot)
+- McDonalds is open 24/7 if you need to cope with bad coding decisions
+- :3
