@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About & Legal · Porkyville Chronicle</title>
+  <meta name="description" content="About & Legal information for the Porkyville Chronicle">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container topbar">
+      <a class="logo" href="../index.html">Porkyville Chronicle</a>
+      <nav class="nav">
+        <a href="../category.html?cat=PE">Piggian Empire</a>
+        <a href="../category.html?cat=World">World</a>
+        <a href="../category.html?cat=Politics">Politics</a>
+        <a href="../category.html?cat=Economy">Economy</a>
+        <a href="../category.html?cat=Culture">Culture</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 class="page-title">About & Legal</h1>
+
+    <h2>About the Chronicle</h2>
+    <p>
+      The <strong>Porkyville Chronicle</strong> is the official national newspaper of the 
+      <em>Piggian Empire</em>. We report on events across the Overworld, Nether, and End — 
+      from politics and economics to culture and world affairs. Our mission is to keep 
+      citizens informed with timely, accurate, and engaging news coverage.
+    </p>
+
+    <h2>Editorial Standards</h2>
+    <p>
+      Articles published in the Chronicle are prepared by our newsroom staff and 
+      contributing reporters across the realms. While satire, fictional events, and 
+      in-universe reporting are part of our coverage, we strive to clearly distinguish 
+      between factual updates and creative storytelling.
+    </p>
+
+    <h2>Legal Notices</h2>
+    <ul>
+      <li>
+        <strong>TradingView Ticker Tape:</strong> The stock ticker displayed on this site is 
+        provided via <a href="https://www.tradingview.com/" target="_blank" rel="noopener">TradingView</a>. 
+        Data and graphics are subject to TradingView’s copyright and licensing terms.
+      </li>
+      <li>
+        <strong>Third-Party Content:</strong> Names, logos, and references to real-world 
+        companies or market instruments (e.g., GOLD, YUM) are property of their respective owners. 
+        They are used here for educational or parody purposes only. 
+        Any references to actual people or events are completely coincidental.
+      </li>
+      <li>
+        <strong>No Financial Advice:</strong> The Chronicle’s “market” content is fictional. 
+        Nothing on this site constitutes financial or investment advice. Please don’t 
+        actually trade stocks based on our stupid jokes.
+      </li>
+    </ul>
+
+    <h2>Contact</h2>
+    <p>
+      For inquiries, corrections, or legal concerns, please contact the Chronicle newsroom 
+      via book & quill, or by <a href="mailto:porky@porky.live?subject=Your%20Getting%20Sued%20Buddy" target="_blank" rel="noopener">E-Mailing us</a>.
+    </p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footwrap container">
+      <p>© <span id="year"></span> Porkyville Chronicle · All rights either not ours or completely made up.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
