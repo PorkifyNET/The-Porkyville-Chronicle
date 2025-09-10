@@ -58,7 +58,7 @@
       .join('');
 
     // Rows by category
-    ['Politics','Economy','Culture','Sport'].forEach(cat => {
+    ['PE','World','Politics','Economy','Culture'].forEach(cat => {
       const el = qs(`#row-${cat}`);
       if(!el) return;
       const posts = state.articles.filter(a => (Array.isArray(a.category)?a.category:[a.category]).includes(cat)).slice(0,4);
